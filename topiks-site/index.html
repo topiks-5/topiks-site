@@ -6,7 +6,25 @@
     <title>topiks site cool</title>
   </head>
   <body>
-    <h1>WELCOME TO THE TOPIKS SITE!!!</h1>
-    <img src="images/car.png" alt="nugget cat" class="center" style="width: 300px; height: auto;">
+    <h1>welcome to the topiks site!</h1>
+    <h4>it's the coolest site on the internet! (subjectively)</h4>
+    <img src="resources/car.png" alt="nugget cat" class="center" style="width: 300px; height: auto;">
+    <div>
+      <p class="eliks" style="font-size: xx-small; position: fixed; bottom: 0; left: 0; padding: 10px" id="randomText"></p>
+      <script type="text/javascript">
+          var textOptions = ["sample text",
+                             "femtanyl on top",
+                             "play gmod NOW",
+                             "i had to learn js for ts",
+                             "twinkle twinkle assholes",
+                             "peetah hurry up",
+                             "stay sharp people",
+                             "sylok the defiled",
+                             "keksis the betrayed",
+                             "dismantle mines yess"];
+          var randText = document.getElementById("randomText");
+          randText.innerHTML = textOptions[Math.floor(Math.random() * textOptions.length)];
+      </script>    
+    </div>  
   </body>
 </html>

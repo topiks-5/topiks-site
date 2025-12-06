@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/d-din');
 
+@font-face {
+  font-family: 'eliksni';
+  src: url('eliksni.woff2') format('woff2');
+}
+
 body {
 	font-family: 'D-DIN', sans-serif;
 	background-color: #001a21;
@@ -10,11 +15,28 @@ body {
 h1 {
 	color: #00FFFF;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 1px;
+}
+h4 {
+        color: #00FFFF;
+        text-align: center;
+        margin-bottom: 8px;
+	margin-top: 1px;
+}
+p {
+        color: #00FFFF;
+        text-align: center;
+        margin-bottom: 6px;
 }
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+.eliks {
+    font-family: 'eliksni', sans-serif;
+    letter-spacing: 0.25em;
+    color: #144b59;
 }
