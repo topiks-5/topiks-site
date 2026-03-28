@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="..//css/style.css">
+        <title>ppl topiks considers cool</title>
+        <style>
+            .friend{
+                background-color: #083642; 
+                display: flex; 
+                align-items: center;
+                flex-direction: row;
+            }
+            .friendText{
+                margin: 5px 10px 5px 10px;
+                line-height: 1.2;
+            }
+            .friendGrid{
+                display: grid; 
+                grid-template-columns: 1fr 1fr; 
+                gap: 5px;
+            }
+
+            @media(min-width: 800px) {
+                .friendGrid{
+                    grid-template-columns: 1fr 1fr 1fr;
+                }  
+            }
+
+            @media(max-width: 500px) {
+                .friendGrid{
+                    grid-template-columns: 1fr;
+                }  
+            }
+        </style>
+    </head>
+    <body>
+        <h1>cool people</h1>
+        <h4>aka my friends (they are really cool and i like em)<br>this is in no particular order btw</h4>
+        <div style="position: absolute; left: 15%; width: 70%;">    
+            <div class="friendGrid">
+                <div class="friend">
+                    <img src="../resources/npc.png" alt="npc's pfp" style="width:60px; height:60px; margin: 5px;" title="art by npc" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">npc (they/them)<br><a href="https://npcn.straw.page">personal site&#x2771</a></p>
+                </div>
+                <div class="friend">
+                    <img src="../resources/vince.png" alt="vince's pfp" style="width: 60px; height: 60px; margin: 5px;" title="art by &quot;skull animations&quot;" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">vince (he/him)<br><a href="https://iamrealithink.straw.page/">personal site&#x2771</a></p>
+                </div>
+                <div class="friend">
+                    <img src="../resources/aspen.png" alt="aspen's pfp" style="width:60px; height:60px; margin: 5px;" title="art by vivziepop" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">aspen (it/its)<br><a href="https://resteternally.carrd.co/">personal site&#x2771</a></p>
+                </div>
+                <div class="friend">
+                    <img src="../resources/ryker.png" alt="ryker's pfp" style="width:60px; height:60px; margin: 5px;" title="art by dubuk (8:11 creator)" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">ryker (he/him)<br><a href="https://rykerishere.straw.page/">personal site&#x2771</a></p>
+                </div>
+                <div class="friend">
+                    <img src="../resources/misk.png" alt="misk's pfp" style="width:60px; height:60px; margin: 5px;" title="art by misk" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">misk (they/them)<br><a href="https://bsky.app/profile/miskedyu.bsky.social">bluesky&#x2771</a></p>
+                </div>
+                <div class="friend">
+                    <img src="../resources/dakota.png" alt="dakota's pfp" style="width:60px; height:60px; margin: 5px;" title="art by dakota" draggable="false" oncontextmenu="return false;">
+                    <p class="friendText">dakota (they/them)</p>
+                </div>
+            </div>
+            <p>*if one of the pages stop working, then contact me and i will make sure to get it fixed</p>
+        </div>
+
+
+        <div class="bottomBar">
+            <p class="bottomText"><a href="../" style=" color:#d1dbdb;">home</a> &#xeb70 cool-people</p>
+            <p class="bottomText" id="randText"></p>
+            <script>
+                const textList = [
+                    "you could be one them!"
+                ]
+
+                const randomIndex = Math.floor(Math.random() * textList.length);
+                document.getElementById("randText").innerText = textList[randomIndex];
+            </script>
+        </div>
+    </body>
+</html>

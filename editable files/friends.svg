@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="friends.svg"
+   inkscape:export-filename="..\topiks-site\resources\friends.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.7792969"
+     inkscape:cx="255.71899"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1171"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path4"
+       style="fill:#00ffff;stroke-width:4.41379"
+       d="M 132.41406 22.068359 C 57.379577 22.068359 -1.8947806e-14 79.447928 0 154.48242 C 0 300.13761 79.448281 322.2075 256 489.93164 C 432.55173 322.2075 512 300.13761 512 154.48242 C 512 79.447928 454.62042 22.068359 379.58594 22.068359 C 326.62042 22.068359 282.48276 52.965567 256 97.103516 C 229.51724 52.965567 185.37957 22.068359 132.41406 22.068359 z M 256 134.39062 A 55.107123 55.107123 0 0 1 311.10742 189.49805 A 55.107123 55.107123 0 0 1 256 244.60352 A 55.107123 55.107123 0 0 1 200.89258 189.49805 A 55.107123 55.107123 0 0 1 256 134.39062 z M 256 254.08203 A 99.675835 99.675835 0 0 1 355.67578 353.75781 L 256 353.75781 L 156.32422 353.75781 A 99.675835 99.675835 0 0 1 256 254.08203 z " />
+  </g>
+</svg>

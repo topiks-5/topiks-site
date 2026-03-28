@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h1>credits/licenses</h1>
+    <h4>i am required (by copyright law) to include this</h4>
+
+    <div style="position: absolute; left: 15%; width: 70%;">
+      <ul>
+        <li>
+          all the content within this domain (unles otherwise listed) is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+          <ul><li>this excludes any subdomains</li></ul>
+        </li>
+        <li>
+          the <a href="../resources/friends.svg">silhouette-inside-a-heart icon</a> seen with the 'cool people' link is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+          <ul><li>the <a href="https://commons.wikimedia.org/wiki/File:Heart_coraz%C3%B3n.svg">original icon</a> is by wikimedia commons user <a href="https://commons.wikimedia.org/wiki/User:Fibonacci">Fibonacci</a> and is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 Unported</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"></li></ul>
+        </li>
+        <li>the profile pictures have ambiguous licenses, but i left the credits in as tooltips</li>
+        <li>
+          fonts:
+          <ul>
+            <li>d-din by datto inc., licensed under the <a href="https://openfontlicense.org/open-font-license-official-text/">sil ofl 1.1</a></li>
+            modified with the nerd font creator script (<a href="https://mit-license.org/">mit license</a>)
+            <li>jetbrains mono nerd font, licensed under the <a href="https://openfontlicense.org/open-font-license-official-text/">sil ofl 1.1</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div style="height:50px;">&nbsp;</div>
+    </div>
+
+    <div class="bottomBar">
+    <p class="bottomText"><a href="../" style=" color:#d1dbdb;">home</a> &#xeb70 licenses</p>
+    <p class="bottomText" id="randText"></p>
+    <script>
+      const textList = [
+        "god bless the guys who came up with creative commons"
+      ]
+
+      const randomIndex = Math.floor(Math.random() * textList.length);
+      document.getElementById("randText").innerText = textList[randomIndex];
+    </script>
+  </div>
+</html>

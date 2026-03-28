@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+      .cont{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .sepline{
+        border-bottom: 3px solid;
+      }
+      
+      @media screen and (min-width: 768px) {
+        .cont{
+          flex-direction: row;
+        }
+        
+        .sepline{
+        border-right: 3px solid;
+        border-bottom: none;
+        }
+      }
+    </style>
+    <title>before you interact w me</title>
+</head>
+<body>
+    <h1>do not interact/before you interact</h1>
+    <h4>important things to know before interacting with me</h4>
+    
+    <div class="cont" style="position: absolute; left: 15%; width: 70%;">
+      <div class="sepline" style="flex: 1; padding: 10px;">
+        <h3 style="margin-bottom: 0;"> dni (do not interact) if you:</h3>
+          <ul style="margin-top: 0px;">
+            <li>
+              are a racist
+              <ul><li>xenophobic, <span title="seeing people from the east (asians, middle eastern people, etc.) as inferior" style="text-decoration:underline dashed;">orientalist</span>, anti black/blm, hispanophobic, etc.</li></ul>
+            </li>
+            <li>are islamophobic</li>
+            <li>are anti-semitic (does <strong>not</strong> include anti-zionism)</li>
+            <li>
+              are a zionist
+              <ul><li>pro-israeli settlement, anti-palestine</li></ul>
+            </li>
+            <li>
+              are sexist
+              <ul><li>(trans)misogynistic</li></ul>
+            </li>
+            <li>are ableist</li>
+            <li>
+              are right-wing
+              <ul><li>alt-right, neo-nazi, <span title="why are y'all supporting a bigot? who's also a PEDOPHILE?">maga</span>, etc.</li></ul>
+            </li>
+            <li>
+              <span title="c'mon there's enough hate in this world why are you even targeting sexual/gender minorities">are anti-lgbtq+</span>
+              <ul><li>homo/bi/pan/a/transphobic, exclusionist, etc.</li></ul>
+            </li>
+            <li>are a proshipper</li>
+            <li><span title="get some help you sickos">are a pedophile (or minor attracted person)</span></li>
+            <li><span title="why do these people exist...">are an adult-attracted minor</span></li>
+            <li><span title="animals can't consent you retards"">are a zoophile</span></li>
+            <li>believe that fiction does not affect reality</li>
+            <li>
+              romanticize problematic/outright illegal tropes anywhere
+              <ul><li>mental illness, self-harm, abuse/assault, rape, incest, pedophilia, etc.</li></ul>
+            </li>
+            <li>
+              commonly use slurs that you <strong>can't</strong> reclaim
+              <ul><li>example: white/caucasian person using the n-slur</li></ul>
+            </li>
+            <li><span title="ew">are an ageplayer</span></li>
+          </ul>
+      </div>
+      
+      <div style="flex: 1; padding: 10px;">
+        <h3 style="margin-bottom: 0;">byi (before you interact):</h3>
+        <ul style="margin-top: 0;">
+          <li>i am kiinda annoying (sorry)</li>
+          <li>i may dm you when you least expect it</li>
+          <li>i infodump (sometimes)</li>
+          <li><span title="just don't beg for them please">i may send you unwarranted gifts</span></li>
+          <li>my sense of humor is kinda immature</li>
+          <li>i can be either blunt and straight to the point or just confusing as shit</li>
+        </ul>
+      </div>
+      <div style="height:50px;">&nbsp;</div>
+    </div>
+    
+    <div class="bottomBar">
+      <p class="bottomText"><a href="../" style=" color:#d1dbdb;">home</a> &#xeb70 dni-byi</p>
+      <p class="bottomText" id="randText"></p>
+      <script>
+        const textList = [
+          "those maga people are a bunch of bigots",
+          "dingus",
+          "who doesn't want a cool indie game sent to them at 3am?",
+          "i don't agree with xenogenders but hating them is a fool's errand",
+          "adult-attracted minors make negative sense",
+          "don't hate on therians",
+          "old smg4 vids are actually funny",
+          "god bless you if you are not on the dni list"
+        ]
+
+        const randomIndex = Math.floor(Math.random() * textList.length);
+        document.getElementById("randText").innerText = textList[randomIndex];
+      </script>
+</body>
+</html>
